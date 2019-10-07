@@ -2,7 +2,7 @@ import React from 'react';
 import NewsSlider from '../Widgets/NewsSlider/slider';
 import NewsList from '../Widgets/NewsList/newsList';
 import { Row, Col } from 'react-bootstrap';
-const Home = () => {  
+const Home = () => {   
     return (
         <Row>
             <Col md={12}>
