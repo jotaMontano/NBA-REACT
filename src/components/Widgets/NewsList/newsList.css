@@ -1,0 +1,25 @@
+
+.newsListItem h2 {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 5px 0;
+    color: #525252;
+}
+
+
+.newsListItem a {
+   text-decoration: none;
+}
+
+
+.newsListWrapper{
+    box-sizing: border-box;
+    opacity:0;
+    transform: translateX(-100%);
+    transition: all .3s ease-in;
+}
+
+.newsListWrapperEnter{
+    opacity: 1;
+    transform: translateX(0%);
+}
